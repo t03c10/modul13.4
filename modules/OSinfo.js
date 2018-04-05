@@ -1,5 +1,5 @@
 var os = require('os');
-var OSUPtime = require('./OSUPtime');
+var OSUPtime = require('../modules/OSUPtime');
 function getOSinfo() {
     var type = os.type();
     if (type === 'Darwin') {
